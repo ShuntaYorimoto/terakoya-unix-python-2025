@@ -1,7 +1,5 @@
 # JupyterHub / JupyterLab の使い方
 
-> **目標**: JupyterHub にログインし、ターミナル・テキストエディタ・Jupyter Notebook を使えるようになる。
-
 ---
 
 ## 目次
