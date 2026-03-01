@@ -27,7 +27,7 @@
 
 ユーザー名とパスワードは事前にメールでお知らせします。講師から配布された URL にアクセスし、ログインしてください。
 
-![ログイン画面](../images/1_login.png)
+![ログイン画面](../images/00_jupyterhub/1_login.png)
 
 ---
 
@@ -35,7 +35,7 @@
 
 ログインすると**ランチャー**画面が表示されます。ここから各ツールを起動します。
 
-![ランチャー画面](../images/2_new_launcher.png)
+![ランチャー画面](../images/00_jupyterhub/2_new_launcher.png)
 
 新しいランチャーを開くには、左上の **`+`** ボタンをクリックします。
 
@@ -45,7 +45,7 @@
 
 ランチャーの Other → **Terminal** をクリックするとターミナルが起動します。
 
-![ターミナル画面](../images/3_terminal.png)
+![ターミナル画面](../images/00_jupyterhub/3_terminal.png)
 
 ---
 
@@ -53,7 +53,7 @@
 
 ランチャーの Other → **Text File** をクリックすると、テキストエディタが開きます。
 
-![テキストファイルエディタ](../images/4_text.png)
+![テキストファイルエディタ](../images/00_jupyterhub/4_text.png)
 
 ファイルは `Command + S`で保存できます。
 
@@ -69,7 +69,7 @@
 
 Notebook はコード・テキストを記述する**セル**（Cell）単位で構成されます。
 
-![セルの実行](../images/5_jupyter_run.png)
+![セルの実行](../images/00_jupyterhub/5_jupyter_run.png)
 
 | 操作 | キー |
 |------|------|
@@ -80,8 +80,8 @@ Notebook はコード・テキストを記述する**セル**（Cell）単位で
 
 コードの途中で **Tab キー**を押すと、関数名や変数名の候補が表示されます。スペルミスの防止にも役立ちます。
 
-![タブ補完（1）](../images/6_jupyter_tab_complement1.png)
+![タブ補完（1）](../images/00_jupyterhub/6_jupyter_tab_complement1.png)
 
-![タブ補完（2）](../images/7_jupyter_tab_complement2.png)
+![タブ補完（2）](../images/00_jupyterhub/7_jupyter_tab_complement2.png)
 
 ---
