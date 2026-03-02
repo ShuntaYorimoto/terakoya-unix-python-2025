@@ -75,7 +75,7 @@ Hello, Bioinformatics!
 例えば、上の図の `run_tool.sh` の場所は次のように表せます：
 
 ```
-/home/shunta/project01/script/run_blastp.sh
+/home/shunta/project01/script/run_tool.sh
 ```
 
 これは「ルートディレクトリ → `home` → `shunta` → `project01` → `script` → `run_tool.sh`」という経路を表しています。
