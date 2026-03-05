@@ -24,13 +24,13 @@
 
 | # | タイトル | 内容 |
 |---|---------|------|
-| 06 | [Python入門：数値・文字列・変数](docs/06_python_intro.md) | データ型（int/float/str/bool）、変数、演算子、文字列操作 |
+| 06 | [Python入門：数値・文字列・変数](docs/06_python_basics.md) | データ型（int/float/str/bool）、変数、演算子、文字列操作 |
 | 07 | [データ構造](docs/07_python_data_structures.md) | リスト、タプル、辞書、集合 |
 | 08 | [制御構文と関数](docs/08_python_control_flow.md) | if、for、while、関数定義 |
 | 09 | [ファイル処理と正規表現](docs/09_python_file_io.md) | open/with、FASTAパース、re モジュール |
-| 10 | [モジュール・BioPython](docs/10_python_biopython.md) | sys/os/pathlib、Seq、SeqIO |
-| 11 | [NumPy・Pandas](docs/11_python_numpy_pandas.md) | 数値配列、DataFrame の操作・集計 |
-| 12 | [Matplotlib・Seaborn](docs/12_python_matplotlib_seaborn.md) | 折れ線・ヒストグラム・散布図・ヒートマップ |
+| 10 | [モジュール・BioPython](docs/10_modules_biopython.md) | sys、正規表現、Seq、SeqIO |
+| 11 | [NumPy・Pandas](docs/11_numpy_pandas.md) | 数値配列、DataFrame の操作・集計 |
+| 12 | [Matplotlib・Seaborn](docs/12_matplotlib_seaborn.md) | 折れ線・ヒストグラム・散布図・ヒートマップ |
 
 ---
 
@@ -42,13 +42,13 @@
 | 03 | [演習03：BLAST](exercises/ex03.md) | 03_blast |
 | 04 | [演習04：シェルスクリプト](exercises/ex04.md) | 04_shell_script |
 | 05 | [演習05：UNIX中級](exercises/ex05.md) | 05_unix_intermediate |
-| 06 | [演習06：Python基礎](exercises/ex06.md) | 06_python_intro |
+| 06 | [演習06：Python基礎](exercises/ex06.md) | 06_python_basics |
 | 07 | [演習07：データ構造](exercises/ex07.md) | 07_python_data_structures |
 | 08 | [演習08：制御構文と関数](exercises/ex08.md) | 08_python_control_flow |
 | 09 | [演習09：ファイル処理と正規表現](exercises/ex09.md) | 09_python_file_io |
-| 10 | [演習10：モジュール・BioPython](exercises/ex10.md) | 10_python_biopython |
-| 11 | [演習11：NumPy・Pandas](exercises/ex11.md) | 11_python_numpy_pandas |
-| 12 | [演習12：Matplotlib・Seaborn](exercises/ex12.md) | 12_python_matplotlib_seaborn |
+| 10 | [演習10：モジュール・BioPython](exercises/ex10.md) | 10_modules_biopython |
+| 11 | [演習11：NumPy・Pandas](exercises/ex11.md) | 11_numpy_pandas |
+| 12 | [演習12：Matplotlib・Seaborn](exercises/ex12.md) | 12_matplotlib_seaborn |
 
 ---
 
