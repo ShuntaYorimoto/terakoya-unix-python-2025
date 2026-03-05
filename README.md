@@ -1,4 +1,4 @@
-# 寺子屋2025「バイオインフォマティクス解析のための UNIX・Python 入門」
+# 生物寺子屋2025「バイオインフォマティクス解析のための UNIX・Python 入門」
 
 **講座番号**: GB2025_06<br>
 **担当**: 頼本隼汰（筑波大学）<br>
@@ -24,13 +24,13 @@
 
 | # | タイトル | 内容 |
 |---|---------|------|
-| 06 | [Python 基礎](docs/06_python_basics.md) | データ型、変数、演算子 |
+| 06 | [Python入門：数値・文字列・変数](docs/06_python_intro.md) | データ型（int/float/str/bool）、変数、演算子、文字列操作 |
 | 07 | [データ構造](docs/07_python_data_structures.md) | リスト、タプル、辞書、集合 |
 | 08 | [制御構文と関数](docs/08_python_control_flow.md) | if、for、while、関数定義 |
-| 09 | [ファイル処理](docs/09_python_file_io.md) | open、with 文、FASTA の読み書き |
-| 10 | [モジュール・BioPython](docs/10_modules_biopython.md) | import、Seq、SeqIO、BLAST、系統樹 |
-| 11 | [NumPy・Pandas](docs/11_numpy_pandas.md) | 配列操作、DataFrame、フィルタリング |
-| 12 | [Matplotlib・Seaborn](docs/12_matplotlib_seaborn.md) | 折れ線・棒グラフ、ヒートマップ、散布図 |
+| 09 | [ファイル処理と正規表現](docs/09_python_file_io.md) | open/with、FASTAパース、re モジュール |
+| 10 | [モジュール・BioPython](docs/10_python_biopython.md) | sys/os/pathlib、Seq、SeqIO |
+| 11 | [NumPy・Pandas](docs/11_python_numpy_pandas.md) | 数値配列、DataFrame の操作・集計 |
+| 12 | [Matplotlib・Seaborn](docs/12_python_matplotlib_seaborn.md) | 折れ線・ヒストグラム・散布図・ヒートマップ |
 
 ---
 
@@ -42,13 +42,13 @@
 | 03 | [演習03：BLAST](exercises/ex03.md) | 03_blast |
 | 04 | [演習04：シェルスクリプト](exercises/ex04.md) | 04_shell_script |
 | 05 | [演習05：UNIX中級](exercises/ex05.md) | 05_unix_intermediate |
-| 06 | [演習06：Python基礎](exercises/ex06.md) | 06_python_basics |
+| 06 | [演習06：Python基礎](exercises/ex06.md) | 06_python_intro |
 | 07 | [演習07：データ構造](exercises/ex07.md) | 07_python_data_structures |
 | 08 | [演習08：制御構文と関数](exercises/ex08.md) | 08_python_control_flow |
-| 09 | [演習09：ファイル処理](exercises/ex09.md) | 09_python_file_io |
-| 10 | [演習10：モジュール・BioPython](exercises/ex10.md) | 10_modules_biopython |
-| 11 | [演習11：NumPy・Pandas](exercises/ex11.md) | 11_numpy_pandas |
-| 12 | [演習12：Matplotlib・Seaborn](exercises/ex12.md) | 12_matplotlib_seaborn |
+| 09 | [演習09：ファイル処理と正規表現](exercises/ex09.md) | 09_python_file_io |
+| 10 | [演習10：モジュール・BioPython](exercises/ex10.md) | 10_python_biopython |
+| 11 | [演習11：NumPy・Pandas](exercises/ex11.md) | 11_python_numpy_pandas |
+| 12 | [演習12：Matplotlib・Seaborn](exercises/ex12.md) | 12_python_matplotlib_seaborn |
 
 ---
 
@@ -57,6 +57,15 @@
 | # | タイトル | 対応資料 |
 |---|---------|---------|
 | 1 | [レポート課題1：共生細菌ゲノムの同定](exercises/case01.md) | 01〜05 |
+| 2 | [レポート課題2：毒腺特異的発現遺伝子の解析](exercises/case02.md) | 06〜12 |
+
+**提出期限**: 2026年3月16日（月）正午まで
+
+**解析用サーバの稼働期間**: 2026年3月2日（月）〜3月15日（日）8:00〜22:00
+
+**レポートの形式・ページ数は問いません。**
+
+**提出先**: 頼本のメールアドレスまで
 
 ## 参照
 
@@ -65,5 +74,6 @@
 - [新Linux/UNIX入門 第3版](https://www.sbcr.jp/product/4797369847/)
 
 ### Python
+- [入門 Python 3 第2版](https://www.oreilly.co.jp/books/9784873119328/)
 - [Pythonによるバイオインフォマティクス 原著第2版](https://www.kyoritsu-pub.co.jp/book/b10003306.html)
 - [改訂　独習Pythonバイオ情報解析](https://www.yodosha.co.jp/yodobook/book/9784758122788/)
