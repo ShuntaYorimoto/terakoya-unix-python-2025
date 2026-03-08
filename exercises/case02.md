@@ -89,6 +89,8 @@ ls
 次に、1列目の `protein_id`（例: `AJ1_g7424.t1`）から **gene_id**（`AJ1_g7424`）を取り出し、
 問1で使用した EdgeR の結果テーブルと照合してください。
 
+> ヒント: 11章で学んだ `merge()` を使うと2つのテーブルを結合できます。
+
 > **補足1 — 特定列のみ読み込む（`usecols`）**
 > `pd.read_csv()` に `usecols=[0, 3, 5]` を渡すと、1・4・6列目だけを読み込めます（`usecols` には Python の慣例に従い **0始まり**の番号を指定します）。列数が行によって可変なファイルでも、位置指定なので影響を受けません。同時に `names=["protein_id", "analysis", "description"]` で列名を付けておくと後の操作が楽になります。
 >
@@ -103,13 +105,6 @@ ls
 > `description` 列に空欄（NaN）が含まれる場合、`str.contains("DUF4803")` はエラーになります。`na=False` を指定すると NaN の行を `False` として扱い、エラーを回避できます:
 > ```python
 > df[df["description"].str.contains("DUF4803", na=False)]
-> ```
->
-> **補足4 — `isin()` による絞り込み**
-> ある列の値が、リストや集合（set）に含まれるかどうかでフィルタリングするには `isin()` を使います:
-> ```python
-> duf_genes = set(duf["gene_id"].unique())   # DUF4803 遺伝子の集合
-> deg[deg["gene_id"].isin(duf_genes)]        # DEG の中で duf_genes に含まれる行を抽出
 > ```
 
 **回答する内容:**
